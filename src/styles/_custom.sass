@@ -1,0 +1,98 @@
+@keyframes flickerI
+	0%
+		opacity: 0.4
+	5%
+		opacity: 0.5
+	10%
+		opacity: 0.6
+	15%
+		opacity: 0.85
+	25%
+		opacity: 0.5
+	30%
+		opacity: 1
+	35%
+		opacity: 0.1
+	40%
+		opacity: 0.25
+	45%
+		opacity: 0.5
+	60%
+		opacity: 1
+	70%
+		opacity: 0.85
+	80%
+		opacity: 0.4
+	90%
+		opacity: 0.5
+	100%
+		opacity: 1
+.banner-principal__img
+  opacity: 1
+  position: relative
+  img
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    top: 25%
+    bottom: 57%
+    left: 37.1%
+    right: 47%
+    background: #E2E3E3
+    border-radius: 300px
+    opacity: 0.1
+    animation: flickerI 2s linear   reverse infinite
+    filter: blur(10px)
+@media screen and ( max-width: 1199px )
+  .banner-principal__img
+    &::before
+      top: 27%
+      bottom: 55%
+      left: 35%
+      right: 48%
+
+
+.box-light-25
+	&.color-primario
+		background: mix($color-primario, $white, 25%)
+	&.color-secundario
+		background-color: mix($color-secundario, $white, 25%)
+	&.color-acento-contenido
+		background-color: mix($color-acento-contenido, $white, 25%)
+	&.color-acento-botones
+		background-color: mix($color-acento-botones, $white, 25%)
+	&.color-blue
+		background-color: #E8F0F8
+
+.box-light-15
+	&.color-primario
+		background: mix($color-primario, $white, 15%)
+	&.color-secundario
+		background-color: mix($color-secundario, $white, 15%)
+	&.color-acento-contenido
+		background-color: mix($color-acento-contenido, $white, 15%)
+	&.color-acento-botones
+		background-color: mix($color-acento-botones, $white, 15%)
+	&.color-blue
+		background-color: mix(#5599F2, $white, 15%)
+.box-light-border-15
+	border: 3px solid
+	&.color-primario
+		border-color: mix($color-primario, $white, 15%)
+	&.color-secundario
+		border-color: mix($color-secundario, $white, 15%)
+	&.color-acento-contenido
+		border-color: mix($color-acento-contenido, $white, 15%)
+	&.color-acento-botones
+		border-color: mix($color-acento-botones, $white, 15%)
+	&.rounded
+		border-radius: 20px!important
+
+.tabs-a__tab
+	background-color: #E8E8E8
+
+.bloque-texto-a.color-acento-contenido
+	background-color: #E8E8E8
+	&::before
+		background-color: #C7B5FD
