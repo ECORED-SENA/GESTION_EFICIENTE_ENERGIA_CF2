@@ -518,22 +518,13 @@
               | Finalmente, para una carga totalmente capacitiva, la onda de corriente está “adelantada” 90 grados con respecto a la onda de voltaje, por lo tanto, la diferencia del ángulo entre el fasor de voltaje y el de corriente es de 90 grados en adelante.
 
     p.mb-5 En las instalaciones eléctricas reales en las que existe una combinación de cargas de diferente naturaleza (resistivas, inductivas y capacitivas) es muy poco probable que la diferencia de fase entre el ángulo de la onda de voltaje y la onda de corriente sea exactamente 90 grados. Por lo tanto, para determinar dicha diferencia se utilizan instrumentos de medida que permiten en tiempo real su cálculo; más adelante se mostrará la aplicación práctica de estos conceptos.
-    //- El componente "Muestras" tiene las aplicaciones de todos los componentes de la base
-    //- se encuentra en src/components/Muestras.vue
-    //- Una vez el componente "Muestras" no se necesite 
-    //- Se debe borrar el "import Muestras from '../components/Muestras'" y en "components" en "<script"
-    //- esto evitará que se compile en la carpeta final de distribución
-    Muestras
+    
   
 </template>
 
 <script>
-import Muestras from '../components/Muestras' // borrar una vez el componente "Muestras" no se necesite
 export default {
   name: 'Tema1',
-  components: {
-    Muestras, // borrar una vez el componente "Muestras" no se necesite
-  },
   data: () => ({
     // variables de vue
   }),
