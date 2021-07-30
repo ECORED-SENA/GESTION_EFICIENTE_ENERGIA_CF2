@@ -23,116 +23,44 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Componentes',
+        titulo: 'Circuitos eléctricos',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Encabezados',
-            hash: 'encabezados',
+            titulo: 'Circuitos en serie y paralelo',
+            hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Párrafos',
-            hash: 'parrafos',
+            titulo: 'Ley de Ohm',
+            hash: 't_1_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
-            titulo: 'Botones',
-            hash: 'botones',
+            titulo: 'Ley de Watt',
+            hash: 't_1_3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.4',
-            titulo: 'Listas',
-            hash: 'listas',
+            titulo: 'Leyes de Kirchhoff',
+            hash: 't_1_4',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.5',
-            titulo: 'Tablas',
-            hash: 'tablas',
+            titulo: 'Respuesta transitoria circuitos de primer orden',
+            hash: 't_1_5',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.6',
-            titulo: 'Imagen',
-            hash: 'imagen',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.7',
-            titulo: 'Imagen Infográfica',
-            hash: 'imagen_infografica',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.8',
-            titulo: 'Video',
-            hash: 'video',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.9',
-            titulo: 'Bloques de texto destacado',
-            hash: 'texto_destacado',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.10',
-            titulo: 'Sliders',
-            hash: 'sliders',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.11',
-            titulo: 'Acordiones',
-            hash: 'acordiones',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.12',
-            titulo: 'Pestañas o Tabs',
-            hash: 'tabs',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.13',
-            titulo: 'Líneas de tiempo',
-            hash: 'lineas_tiempo',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.14',
-            titulo: 'Pasos',
-            hash: 'pasos',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.15',
-            titulo: 'Llamados a la acción',
-            hash: 'llamados_accion',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.16',
-            titulo: 'Tarjetas',
-            hash: 'tarjetas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.17',
-            titulo: 'Tarjetas con número',
-            hash: 'tarjeta_numero',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.18',
-            titulo: 'Modal',
-            hash: 'modal',
+            titulo: 'Fasores',
+            hash: 't_1_6',
           },
         ],
       },
@@ -140,44 +68,38 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Producción Audiovisual',
+        titulo: 'Potencia eléctrica',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Infografía Animada',
+            titulo: 'Potencia activa',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Video Motion',
+            titulo: 'Potencia reactiva',
             hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Motion + Presentador',
+            titulo: 'Potencia apartente',
             hash: 't_2_3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.4',
-            titulo: 'Animación 2D',
+            titulo: 'Factor de potencia',
             hash: 't_2_4',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.5',
-            titulo: 'Video interactivo',
+            titulo: 'Facturas de energía eléctrica',
             hash: 't_2_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.6',
-            titulo: 'Infografías',
-            hash: 't_2_6',
           },
         ],
       },
@@ -185,56 +107,70 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Fundamentación Textil',
+        titulo: 'Circuitos trifásicos',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo:
-              'Clasificación y conceptualización de las fibras naturales, químicas (artificiales y sintéticas).',
+            titulo: 'Conexión "Y"',
             hash: 't_3_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.2',
-            titulo: 'Identificación fibras por combustión',
+            titulo: 'Conexión "Δ"',
             hash: 't_3_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.3',
-            titulo: 'Clasificación de los hilos',
+            titulo: 'Equivalente monofásico',
             hash: 't_3_3',
           },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: '<i>Software</i> de simulación de circuitos eléctricos',
+        desarrolloContenidos: true,
+        subMenu: [
           {
             icono: 'far fa-file-alt',
-            numero: '3.4',
-            titulo: 'Clasificación de tejidos',
-            hash: 't_3_4',
+            numero: '4.1',
+            titulo: 'Biblioteca de componentes',
+            hash: 't_4_1',
           },
           {
             icono: 'far fa-file-alt',
-            numero: '3.5',
-            titulo: 'Caracterización de los tejidos',
-            hash: 't_3_5',
+            numero: '4.2',
+            titulo: 'Conexión de componentes',
+            hash: 't_4_2',
           },
           {
             icono: 'far fa-file-alt',
-            numero: '3.6',
-            titulo: 'Procesos textiles',
-            hash: 't_3_6',
+            numero: '4.3',
+            titulo: 'Parametrización de componentes',
+            hash: 't_4_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.4',
+            titulo: 'Parametrización de componentes',
+            hash: 't_4_4',
           },
         ],
       },
     ],
     subMenu: [
-      {
-        nombreRuta: 'actividad',
-        icono: 'far fa-question-circle',
-        titulo: 'Actividad didáctica',
-        desarrolloContenidos: true,
-      },
+      // {
+      //   nombreRuta: 'actividad',
+      //   icono: 'far fa-question-circle',
+      //   titulo: 'Actividad didáctica',
+      //   desarrolloContenidos: true,
+      // },
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
@@ -250,11 +186,11 @@ export default {
         titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
       },
-      {
-        icono: 'fas fa-download',
-        titulo: 'Descargar material',
-        download: 'downloads/material.zip',
-      },
+      // {
+      //   icono: 'fas fa-download',
+      //   titulo: 'Descargar material',
+      //   download: 'downloads/material.zip',
+      // },
       {
         icono: 'far fa-registered',
         titulo: 'Créditos',
@@ -265,134 +201,145 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA: ',
+        'Fitzgerald, A., Higginbotham, D. y Grabel, A. (1988). Fundamentos de ingeniería eléctrica. 4ª edición. McGraw-Hill. ',
+    },
+    {
+      referencia: 'García, Á, J. (2005). ¿Qué es la Ley de Ohm? Así funciona. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'http://www.asifunciona.com/electrotecnia/ke_ley_ohm/ke_ley_ohm_1.htm',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA: ',
+        'González, B.; Toledano, J. (1994). Sistemas polifásicos. Editorial Paraninfo.',
+    },
+    {
+      referencia:
+        'McAllister, W. (2020). Las leyes de Kirchhoff. Khan Academy.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'https://es.khanacademy.org/science/physics/circuits-topic/circuits-resistance/a/ee-kirchhoffs-laws',
+    },
+    {
+      referencia: 'Mantilla, G. (1985). Fuerza, trabajo y potencia. SENA.',
+      link: 'https://hdl.handle.net/11404/1851',
+    },
+    {
+      referencia: 'Mantilla, G. (1983). La Ley de Ohm. Unidad 19. SENA.',
+      link: 'https://hdl.handle.net/11404/1846',
     },
     {
       referencia:
-        'Harpersbazaar. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
+        'Rodríguez P., M. Á. (s.f.). Circuitos de corriente alterna trifásica. Universidad de Cantabria. Departamento de Ingeniería Eléctrica y Energética.',
     },
     {
       referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
-    },
-    {
-      referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA. ',
-    },
-    {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
-    },
-    {
-      referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
-    },
-    {
-      referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'Vila, R. (2008). Circuitos eléctricos básicos para el estudiante. 2ª edición. Universidad Industrial de Santander.',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
-      significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+      termino: 'Circuito eléctrico',
+      significado: 'Es la interconexión de dos o más componentes eléctricos.',
     },
     {
-      termino: 'Suftware',
+      termino: 'Circuito en paralelo',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Cuando dos o más aparatos se conectan a una fuente de energía, de tal manera que la corriente total se divide circulando los electrones a través de cada aparato en una trayectoria separada, se dice que los aparatos (cargas o resistencias) están conectados en paralelo.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Circuito en serie',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'En este, los aparatos receptores (cargas o resistencias) están conectados uno tras otro, de tal manera que existe solamente una trayectoria para los electrones.',
     },
     {
-      termino: 'Áectores',
+      termino: 'Constante de tiempo',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'Es un indicador de la velocidad de reacción del circuito ante una perturbación.',
     },
     {
-      termino: 'Moda',
-      significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+      termino: 'Componente eléctrico',
+      significado: 'Dispositivo que forma parte de un circuito electrónico.',
     },
     {
-      termino: 'Diseño',
+      termino: 'Factor de potencia',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Es la relación entre la potencia activa, P, y la potencia aparente, S. ​Da una medida de la capacidad de una carga de absorber la potencia activa.',
     },
     {
-      termino: 'Tipología',
+      termino: 'Fase',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+        'Es la fracción de un ciclo transcurrido desde el inicio de la señal de corriente voltaje, su símbolo es (p).',
     },
     {
-      termino: 'Bidimensional',
+      termino: 'Frecuencia',
       significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
+        'Número de veces que un voltaje o una corriente alterna cambia de polaridad en segundo.',
     },
     {
-      termino: 'Interés Inferior del menor',
+      termino: 'Inducción electromagnética',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Producción de energía por variación de campos magnéticos alrededor de bobinas.',
     },
     {
-      termino: 'Interseccionalidad',
+      termino: 'Ley de Ohm',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'La Ley de Ohm muestra la relación entre la tensión (o voltaje), la corriente y la resistencia en un circuito eléctrico: la diferencia de potencial (tensión) a través de una resistencia es directamente proporcional a la corriente que circula por la misma.',
     },
     {
-      termino: 'Interés superior del menor',
+      termino: 'Ley de Watt',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'La potencia eléctrica suministrada por un receptor es directamente proporcional a la tensión de alimentación (U) del circuito y a la intensidad (I) que circule por él.',
+    },
+    {
+      termino: 'Malla',
+      significado:
+        'Es el tramo de circuito eléctrico comprendido entre dos nodos consecutivos.',
+    },
+    {
+      termino: 'Nodo',
+      significado:
+        'Es el punto donde se conectan dos o más elementos de un circuito.',
+    },
+    {
+      termino: 'Potencia eléctrica',
+      significado:
+        'Volumen de energía que gasta una instalación eléctrica en la unidad de tiempo, se representa con la letra P.',
+    },
+    {
+      termino: 'Rama',
+      significado:
+        'Es un recorrido cerrado del circuito que resulta de recorrer el esquema eléctrico en un mismo sentido, regresando al punto de partida, pero sin pasar dos veces por la misma rama.',
+    },
+    {
+      termino: '<i>Software</i> de simulación eléctrica',
+      significado:
+        'Herramienta de software utilizada por profesionales en el campo de la electricidad y por los estudiantes de las carreras del área eléctrica y afines.',
     },
   ],
   complementario: [
     {
-      texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
-    },
-    {
-      texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
+      texto: 'ENDESA Fundación. (2020). Circuitos eléctricos. ',
       tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
+      link:
+        'https://www.fundacionendesa.org/es/recursos/a201908-elementos-circuito-electrico',
     },
     {
       texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
+        'Empresas Públicas de Pereira. (2015). Aprende a leer tu factura de energía eléctrica.',
+      tipo: 'Tutorial PDF',
+      descarga: '/downloads/Aprende_a_leer_tu_factura_de_energia_electrica.pdf',
     },
     {
-      texto: 'Economía de Rosquilla. (s.f.).',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
-    },
-    {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
+      texto:
+        'Llanos, S. (2019). Leyes de Kirchhoff. Solución de un circuito [video]. YouTube.',
       tipo: 'Video',
-      link: 'https://www.google.com/',
+      link: 'https://www.youtube.com/watch?v=Ni37_i656RI',
+    },
+    {
+      texto:
+        'Servicio Nacional de Aprendizaje - SENA. (1980). Diferencia de potencial y corriente eléctrica. SENA.',
+      tipo: 'Cartilla PDF',
+      descarga:
+        '/downloads/unidad_02_diferencia_potencial_corriente_electrica.pdf',
     },
   ],
   creditos: {
