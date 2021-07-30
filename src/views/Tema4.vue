@@ -181,10 +181,11 @@
     #t_4_3.titulo-segundo(data-aos="fade-in")
       h2 4.3  Parametrización de componentes
 
-    p.mb-5 Las propiedades de los diferentes componentes presentan un formato donde se editan o ajustan sus valores, aunque los campos dependen de cada simulador y de los componentes en particular. Algunos podrán tener más elementos y más variables, en los cuales es posible definir parámetros como resistencia, capacitancia, voltajes, tolerancias, tiempos, frecuencias, inductancias, entre otros; conforme se vayan utilizando algunos de los componentes se va aprendiendo a cómo manejar sus propiedades en cada caso. 
-      br
-      br
-      | La mayoría de estas propiedades serán útiles al momento de realizar la simulación del circuito, ya que definen los valores y los parámetros de funcionamiento del componente. Algunas otras propiedades se utilizan solo para etiquetar los componentes dentro del circuito, por ejemplo, la referencia que se mostrará en el diagrama para identificar al componente dentro de él. 
+    .mb-5.px-4.py-2.texto-color-offset-top-left-3
+      p Las propiedades de los diferentes componentes presentan un formato donde se editan o ajustan sus valores, aunque los campos dependen de cada simulador y de los componentes en particular. Algunos podrán tener más elementos y más variables, en los cuales es posible definir parámetros como resistencia, capacitancia, voltajes, tolerancias, tiempos, frecuencias, inductancias, entre otros; conforme se vayan utilizando algunos de los componentes se va aprendiendo a cómo manejar sus propiedades en cada caso. 
+        br
+        br
+        | La mayoría de estas propiedades serán útiles al momento de realizar la simulación del circuito, ya que definen los valores y los parámetros de funcionamiento del componente. Algunas otras propiedades se utilizan solo para etiquetar los componentes dentro del circuito, por ejemplo, la referencia que se mostrará en el diagrama para identificar al componente dentro de él. 
     
     .row
       .col-md-6.mb-4.mb-md-0.d-flex
@@ -204,14 +205,15 @@
     #t_4_4.titulo-segundo(data-aos="fade-in")
       h2 4.4  Parametrización de componentes
 
-    p.mb-5 Se puede observar mejor el funcionamiento de los circuitos cambiando algunas opciones de animación, para hacerlo, buscar en el simulador la ubicación de la configuración de las animaciones y visualizaciones del simulador. Se abrirá el cuadro de diálogo de Animated Circuits Configuration con dos secciones principales, velocidad de simulación para controlar esta en el circuito a simular y opciones de simulación para configurar la forma en que se verá la simulación.
-      br
-      br
-      | Las opciones de velocidad y de animación permiten ver la simulación de diferentes maneras, siguiendo algunas recomendaciones. Las opciones Frames per Second y Timestep per Frame determinan la velocidad de animación del circuito; los valores por defecto son 20 y 50 m, respectivamente, entonces, si se multiplica 20 cuadros cada segundo, por 50 milisegundos de cada cuadro, se obtiene un tiempo exacto de un segundo, lo cual indica que la simulación correrá en tiempo real.
-      br
-      br
-      | Si se quiere mantener esta velocidad real se debe asegurar que la multiplicación de estos campos arroje un resultado de un segundo; por ejemplo, para 50 cuadros por segundo se tiene que ingresar un tiempo por cuadro de 20 milisegundos (20 ms). Se puede variar estos valores para acelerar o ralentizar la simulación; si se coloca una combinación de 20 por 100 ms, por ejemplo, el resultado será 2 segundos, de modo que por cada segundo transcurrido, en la simulación habrán pasado 2 segundos, y de esta forma se habrá acelerado el proceso al doble de la velocidad real.
-    
+    .mb-5.px-4.py-2.texto-color-offset-top-left-4
+      p Se puede observar mejor el funcionamiento de los circuitos cambiando algunas opciones de animación, para hacerlo, buscar en el simulador la ubicación de la configuración de las animaciones y visualizaciones del simulador. Se abrirá el cuadro de diálogo de Animated Circuits Configuration con dos secciones principales, velocidad de simulación para controlar esta en el circuito a simular y opciones de simulación para configurar la forma en que se verá la simulación.
+        br
+        br
+        | Las opciones de velocidad y de animación permiten ver la simulación de diferentes maneras, siguiendo algunas recomendaciones. Las opciones Frames per Second y Timestep per Frame determinan la velocidad de animación del circuito; los valores por defecto son 20 y 50 m, respectivamente, entonces, si se multiplica 20 cuadros cada segundo, por 50 milisegundos de cada cuadro, se obtiene un tiempo exacto de un segundo, lo cual indica que la simulación correrá en tiempo real.
+        br
+        br
+        | Si se quiere mantener esta velocidad real se debe asegurar que la multiplicación de estos campos arroje un resultado de un segundo; por ejemplo, para 50 cuadros por segundo se tiene que ingresar un tiempo por cuadro de 20 milisegundos (20 ms). Se puede variar estos valores para acelerar o ralentizar la simulación; si se coloca una combinación de 20 por 100 ms, por ejemplo, el resultado será 2 segundos, de modo que por cada segundo transcurrido, en la simulación habrán pasado 2 segundos, y de esta forma se habrá acelerado el proceso al doble de la velocidad real.
+      
     .row.mb-5
       .col-md-6.mb-4.mb-md-0.d-flex
         .box-light-25.color-acento-botones.p-5

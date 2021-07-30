@@ -113,3 +113,63 @@
 	li
 		i
 			color: $color-primario!important
+
+.texto-color-offset-top-left
+  position: relative
+  p
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    background-color: mix($color-acento-botones, #FFF, 25%)
+    top: 0
+    bottom: 56%
+    left: 0
+    right: 75%
+
+.texto-color-offset-top-left-2
+  position: relative
+  p
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    background-color: mix($color-acento-botones, #FFF, 25%)
+    top: 0
+    bottom: 40%
+    left: 0
+    right: 75%
+
+.texto-color-offset-top-left-3
+  position: relative
+  p
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    background-color: mix($color-primario, #FFF, 25%)
+    top: 0
+    bottom: 65%
+    left: 0
+    right: 75%
+
+.texto-color-offset-top-left-4
+  position: relative
+  p
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    background-color: mix($color-primario, #FFF, 25%)
+    top: 65%
+    bottom: 0
+    left: 75%
+    right: 0
+
+.titulo-principal__numero
+	background-color: $color-acento-botones
+	span
+		color: $black
+.titulo-segundo
+	&::after
+		border-left: solid 50px $color-acento-botones

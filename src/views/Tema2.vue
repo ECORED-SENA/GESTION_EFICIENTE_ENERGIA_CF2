@@ -17,15 +17,21 @@
 
     p.mb-5(data-aos="fade-in") La potencia (P) o energía eléctrica, o sea, la tasa a la cual la energía eléctrica se convierte en otra forma de energía es, simplemente, la corriente (I) multiplicada por el voltaje (V). Un voltaje de un voltio, al impulsar una corriente de un amperio, produce un vatio de potencia.
 
+    .row.justify-content-center.mb-2
+      .col-auto
+        figure(data-aos="fade-in")
+          img(src="@/assets/curso/tema2-imagen11.svg")
+
     Separador
 
     #t_2_1.titulo-segundo(data-aos="fade-in")
       h2 2.1  Potencia activa
 
-    p.mb-5(data-aos="fade-in") Cuando se conecta un equipo o consumidor eléctrico a un circuito alimentado por una fuente de fuerza electromotriz (F.E.M) como puede ser una batería, la energía eléctrica que suministra fluye por el conductor, permitiendo que, por ejemplo, una bombilla de alumbrado transforme esa energía en luz y calor o un motor pueda mover una maquinaria, esta energía consumida se mide kWh. De acuerdo con la definición de la física, “la energía ni se crea ni se destruye, se transforma”, en el caso de la energía eléctrica, esa transformación se manifiesta en la obtención de luz, calor, frío, movimiento o en otro trabajo útil que realice cualquier dispositivo conectado a un circuito eléctrico cerrado.
-      br
-      br
-      | Cuando se tiene una carga resistiva conectada en un circuito eléctrico se le llama carga activa, y en este caso, cuando se conoce el valor de la tensión eléctrica y la corriente que circula por la resistencia. También se llama potencia media, real o verdadera, debido a los dispositivos resistivos, su unidad de medida en el vatio (W) y se calcula como:
+    .mb-5.px-4.py-3.texto-color-offset-top-left
+      p.mb-0 Cuando se conecta un equipo o consumidor eléctrico a un circuito alimentado por una fuente de fuerza electromotriz (F.E.M) como puede ser una batería, la energía eléctrica que suministra fluye por el conductor, permitiendo que, por ejemplo, una bombilla de alumbrado transforme esa energía en luz y calor o un motor pueda mover una maquinaria, esta energía consumida se mide kWh. De acuerdo con la definición de la física, “la energía ni se crea ni se destruye, se transforma”, en el caso de la energía eléctrica, esa transformación se manifiesta en la obtención de luz, calor, frío, movimiento o en otro trabajo útil que realice cualquier dispositivo conectado a un circuito eléctrico cerrado.
+        br
+        br
+        | Cuando se tiene una carga resistiva conectada en un circuito eléctrico se le llama carga activa, y en este caso, cuando se conoce el valor de la tensión eléctrica y la corriente que circula por la resistencia. También se llama potencia media, real o verdadera, debido a los dispositivos resistivos, su unidad de medida en el vatio (W) y se calcula como:
     
     .row.justify-content-center.mb-5(data-aos="slide-up" data-aos-duration="900")
       .col-lg-7
@@ -33,25 +39,25 @@
           .h3.mb-2 <strong>P= V*I*Cos(φ)</strong>
           p.mb-4
             | Donde:
-          .row.align-items-center
+          .row.align-items-center.mb-4
             .col-auto
               .contenedor-letras
                 | P
             .col
               | Potencia (W)
-          .row.align-items-center
+          .row.align-items-center.mb-4
             .col-auto
               .contenedor-letras
                 | V
             .col
               | Voltaje (V)
-          .row.align-items-center
+          .row.align-items-center.mb-4
             .col-auto
               .contenedor-letras(style="padding: 0px 10px")
                 | I
             .col
               | Intensidad de corriente (A)
-          .row.align-items-center.mb-3
+          .row.align-items-center.mb-4
             .col-auto
               .contenedor-letras
                 | Φ
@@ -84,10 +90,10 @@
       .col-lg-10
         .bloque-texto-a.color-acento-contenido.p-4.p-md-5.mb-5
           .row.m-0.align-items-center.justify-content-between
-            .col-lg-3.mb-4.mb-lg-0
+            .col-lg-4.mb-4.mb-lg-0
               p.mb-0
                 strong Los equipos que tienen cargas inductivas, como el caso de los motores eléctricos, tienen un factor de potencia inferior a "1", en general entre 0,8 y 0,98, por lo que la eficiencia de trabajo es menor y producen un gasto de energía mayor.
-            .col-lg-9
+            .col-lg-8
               .bloque-texto-a__texto.p-4
                 p Por eso las compañías de electricidad multan a las empresas que tienen un factor de potencia bajo. Las empresas para evitar esas multas utilizan cargas capacitivas, que compensan a las cargas inductivas; se usan capacitores que aumentan el factor de potencia, tratando de llevarlo a valores cercanos a "1". También en las chapas de los motores está indicado el factor de potencia, además de la tensión de alimentación, la frecuencia, la corriente nominal, la potencia y la velocidad nominal.
         .row
@@ -155,13 +161,13 @@
           figure
             img(src="@/assets/curso/tema2-imagen3.svg")
 
-    p.mb-5(data-aos="fade-in") Cuando la impedancia de la carga no es puramente resistiva el factor de potencia es igual a 1, y hay una corriente fuera de fase en las líneas que no funciona. Esta corriente extra aumenta las pérdidas en la línea, por ello, se necesitan generadores y conductores más grandes para producirla y enviarla. Las compañías eléctricas a veces imponen un recargo por la corriente fuera de fase y los usuarios de la energía tratan de mantener el factor de potencia lo más cercano a 1, en lo posible.
-      br
-      br
-      | El factor de potencia se puede leer directamente con un medidor de factor de potencia, también se puede calcular con las lecturas de los medidores de voltaje, corriente y energía, por ejemplo, si el medidor de vatios mostró que un motor consume 1920 vatios, pero el amperímetro y el voltímetro midieron 5 amperios a 480 voltios, el factor de potencia sería 0.8.
+    .mb-5.px-5.py-4.texto-color-offset-top-left-2
+      p(data-aos="fade-in") Cuando la impedancia de la carga no es puramente resistiva el factor de potencia es igual a 1, y hay una corriente fuera de fase en las líneas que no funciona. Esta corriente extra aumenta las pérdidas en la línea, por ello, se necesitan generadores y conductores más grandes para producirla y enviarla. Las compañías eléctricas a veces imponen un recargo por la corriente fuera de fase y los usuarios de la energía tratan de mantener el factor de potencia lo más cercano a 1, en lo posible.
     
     .row.justify-content-center(data-aos="fade-in")
-      .col-auto
+      .col-lg-8.mb-5.mb-lg-0
+        p.mb-0 El factor de potencia se puede leer directamente con un medidor de factor de potencia, también se puede calcular con las lecturas de los medidores de voltaje, corriente y energía, por ejemplo, si el medidor de vatios mostró que un motor consume 1920 vatios, pero el amperímetro y el voltímetro midieron 5 amperios a 480 voltios, el factor de potencia sería 0.8.
+      .col-lg-4.px-lg-5
         .contenedor-bordes-azules.mb-5.py-4.px-5.text-center
           figure
             img(src="@/assets/curso/tema2-imagen4.svg")
@@ -268,7 +274,7 @@
                   h3.mb-1 <i>Tips</i> que permiten controlar los consumos de energía
                   p.text-small <i>Tips</i> que nos permiten controlar los consumos de energía - infografía.
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/Tips_Energia.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
     

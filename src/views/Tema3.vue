@@ -20,7 +20,7 @@
       br
       | El sistema trifásico presenta una serie de ventajas como son la economía de sus líneas de transporte de energía (hilos de menor sección que en una línea monofásica equivalente) y de los transformadores utilizados, así como su elevado rendimiento de los receptores, especialmente motores, a los que la línea trifásica alimenta con potencia constante.
 
-    .row
+    .row.mb-5
       .col-lg-6.mb-5.mb-lg-0.d-flex
         .box-light-25.color-acento-botones.p-5
           .h2.mb-5 Código de colores
@@ -55,7 +55,7 @@
     
     .row.justify-content-center
       .col-lg-8
-        .cajon.color-acento-contenido.px-5.py-4.mb-4
+        .cajon.color-acento-botones.px-5.py-4.mb-4
           p.mb-0 Además, entre la tensión y la corriente de una fase existe el desfase, idéntico al argumento de la impedancia (Z), como sucede en los circuitos monofásicos. Evidentemente, en circuitos equilibrados este ángulo es el mismo en las tres fases.
     
     Separador
