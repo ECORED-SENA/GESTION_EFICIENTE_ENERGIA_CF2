@@ -55,18 +55,27 @@
               figure
                 img(src='@/assets/curso/tema1-imagen5.svg')
 
-    .row.justify-content-center.mb-5.box-light-25.color-blue.p-5(data-aos="zoom-in" data-aos-delay="300")
-      .col-12.col-lg-4.mb-5.mb-lg-0.px-lg-5
-        figure
-          img(src='@/assets/curso/tema1-imagen6.svg')
-      .col-12.col-lg-8.mb-5.mb-lg-0
-        .titulo-segundo
-          h2 Circuitos en serie y paralelo
-        p.mb-5 Ahora, en un circuito eléctrico la resistencia también es conocida como carga eléctrica, la cual representa cualquier dispositivo eléctrico que se conecte a una fuente de voltaje. Por lo tanto, en un circuito puede haber más de una carga o resistencia y estas se pueden conectar de dos maneras: en serie y en paralelo. A continuación, se explican estos dos tipos de conexiones.
+    p.mb-5 Ahora, en un circuito eléctrico la resistencia también es conocida como carga eléctrica, la cual representa cualquier dispositivo eléctrico que se conecte a una fuente de voltaje. Por lo tanto, en un circuito puede haber más de una carga o resistencia y estas se pueden conectar de dos maneras: en serie y en paralelo. A continuación, se explican estos dos tipos de conexiones.
 
-        a.boton.color-acento-contenido.me-3(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
-          span Descargar
-          i.fas.fa-file-download
+    TabsC.color-acento-contenido.mb-5(data-aos="fade-in" data-aos-delay="300")
+      .p-4.p-md-5(titulo="Circuitos en serie")
+        p.mb-5 En un circuito en serie los aparatos receptores (cargas o resistencias) están conectados uno tras otro, de tal manera que existe solamente una trayectoria para los electrones. Esto hace que la misma corriente fluya a través de todas las resistencias; sin embargo, el voltaje se dividirá entre ellas. Así pues, al sumar los voltajes de todas las cargas, el resultado debe equivaler al voltaje de la fuente.
+          br
+          br
+          | Un circuito en serie es de "todos o ninguno", en el que funciona todo o nada. Todos están familiarizados con las series de bombillos para el árbol de navidad, ejemplo clásico de este tipo de conexión. Cuando uno de ellos se funde se apagan todos los bombillos y cambiando el bombillo defectuoso se permite nuevamente el paso de la corriente por todo el circuito.
+        .row.justify-content-center
+          .col-lg-9
+            figure
+              img(src='@/assets/curso/tema1-imagen37.svg')
+      .p-4.p-md-5(titulo="Circuitos en paralelo")
+        p.mb-5 Cuando dos o más aparatos se conectan a una fuente de energía de tal manera que la corriente total se divide, circulando los electrones a través de cada aparato en una trayectoria separada, se dice que los aparatos (cargas o resistencias) están conectados en paralelo. Se caracteriza porque los extremos de las resistencias van unidos a un mismo punto y el voltaje es el mismo en todas ellas. Así pues, la suma de la corriente de cada resistencia es igual a la corriente que entrega la fuente. 
+          br
+          br
+          | Todo el mundo usa circuitos en paralelo. Las diferentes lámparas y aparatos eléctricos de una casa se conectan en paralelo para poder operar independientemente. Si los aparatos tienen que ponerse a funcionar y desconectarse por separado, sin afectar a otros, tienen que conectarse en paralelo.
+        .row.justify-content-center
+          .col-lg-9
+            figure
+              img(src='@/assets/curso/tema1-imagen38.svg')
 
     Separador
 
