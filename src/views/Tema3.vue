@@ -33,7 +33,7 @@
           .titulo-sexto.color-acento-contenido
             span Líneas trifásicas
           figure.mb-5
-            img(src="@/assets/curso/tema3-imagen30.svg")
+            img(src="@/assets/curso/tema3-imagen31.svg")
             figcaption Fuente: Repositorio SENA.
           p.mb-0 La electricidad trifásica energiza las grandes cargas industriales con más eficiencia, que la electricidad de una sola fase. Cuando se necesite electricidad de una sola fase, esta se encuentra disponible entre dos fases cualesquiera o, en algunos sistemas, entre una de las fases y tierra.
 
