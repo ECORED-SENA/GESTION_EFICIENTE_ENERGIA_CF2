@@ -8,7 +8,7 @@
         span 4
       h1 <i>Software</i> de simulación de circuitos eléctricos
 
-    p.mb-5 Es una herramienta de software utilizada por profesionales en el campo de la electricidad y por estudiantes de las carreras del área eléctrica y afines. Ayuda a crear algún circuito que se desee ensamblar, ayudando a entender mejor el mecanismo y a ubicar las fallas dentro del mismo, de manera sencilla y eficiente.
+    p.mb-5 Es una herramienta de <i>software</i> utilizada por profesionales en el campo de la electricidad y por estudiantes de las carreras del área eléctrica y afines. Ayuda a crear algún circuito que se desee ensamblar, ayudando a entender mejor el mecanismo y a ubicar las fallas dentro del mismo, de manera sencilla y eficiente.
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
       .row(titulo="Características generales")
@@ -19,7 +19,7 @@
             | El diseño de este tipo de <strong><i>software</i></strong> lleva varios años y con ello cada vez se van mejorado sus características, haciéndolos más robustos y reales, uno de los primeros simuladores creados fue SPICE, desarrollado por Donald Pederson en la Universidad de California en Berkeley en 1975. El funcionamiento de este programa se basa en la  línea de órdenes, las cuales no son tan fáciles de utilizar al momento de diseñar todo un circuito complejo y el usuario debe tener un conocimiento correcto sobre cómo utilizar las instrucciones correctas; sin embargo, SPICE es fundamental para otros programas con mayor interactividad con el usuario, tales como Orégano o GEDA.
             br
             br
-            | En la actualidad, existen cada vez más programas dedicados al diseño asistido por computadora o CAD (Computer-Aided Design) para diferentes áreas de desarrollo, y la electrónica no podía quedarse atrás. Dentro de este contexto, en los últimos años han surgido gran cantidad de programas orientados a los expertos en electrónica para ayudarlos en el diseño de circuitos.
+            | En la actualidad, existen cada vez más programas dedicados al diseño asistido por computadora o CAD (<i>Computer-Aided Design</i>) para diferentes áreas de desarrollo, y la electrónica no podía quedarse atrás. Dentro de este contexto, en los últimos años han surgido gran cantidad de programas orientados a los expertos en electrónica para ayudarlos en el diseño de circuitos.
             br
             br
             | Los programas tipo CAD enfocados en la electrónica en general tienen las siguientes características: dibujo de diagramas de circuitos, simulación de circuitos electrónicos y diseño de circuitos impresos
@@ -44,7 +44,7 @@
           figure
             img(src='@/assets/curso/tema4-imagen2.svg', alt='Texto que describa la imagen')
         .col-md-8
-          p.mb-0 Algunos simuladores de circuitos no están lo suficientemente actualizados, y no cuentan con todos los chips del mercado, y eso sería un contratiempo para el diseñador, ya que deberá darse a la tarea de fabricar su propio semiconductor. Cuando no se sabe cómo manejar el programa de simulación, genera retrasos en los diseños, se debe estudiar de manera completa todos los componentes y opciones que tiene el programa, para poder realizar el trabajo de manera correcta.
+          p.mb-0 Algunos simuladores de circuitos no están lo suficientemente actualizados, y no cuentan con todos los <i>chips</i> del mercado, y eso sería un contratiempo para el diseñador, ya que deberá darse a la tarea de fabricar su propio semiconductor. Cuando no se sabe cómo manejar el programa de simulación, genera retrasos en los diseños, se debe estudiar de manera completa todos los componentes y opciones que tiene el programa, para poder realizar el trabajo de manera correcta.
     
     Separador
 
@@ -59,12 +59,12 @@
               h3.mb-0 Es la parte dentro del programa de simulación donde se eligen los componentes de las librerías o elegir los componentes que formarán los circuitos eléctricos.
             .col-lg-8
               .bloque-texto-a__texto.p-4
-                p.mb-0 Para seleccionar los componentes se debe estar en el modo donde se habiliten las funciones de esta opción, para lo cual, simplemente, se presiona un botón o algo por el estilo en la barra de herramientas del software.
+                p.mb-0 Para seleccionar los componentes se debe estar en el modo donde se habiliten las funciones de esta opción, para lo cual, simplemente, se presiona un botón o algo por el estilo en la barra de herramientas del <i>software</i>.
 
     .row
       .col-md-6.mb-4.mb-md-0.d-flex
         .box-light-25.color-acento-botones.p-5
-          p.mb-0 Cuando se acude a la biblioteca se observa algo como una ventana para la selección de objetos, allí se puede apreciar el nombre y una breve descripción de cada uno de los componentes contenidos. El aspecto visual de esto difiere dependiendo del software de simulación, en algunas es muy simple y los componentes se aprecian a simple vista, pero cuando la aplicación es muy robusta trae una gran variedad de componentes, lo que conlleva a agruparlos por categorías, lo que hace necesario brindar opciones para que se pueda navegar por las librerías de componentes para elegir los que formarán el diseño y también es posible hacer una búsqueda concreta. Un ejemplo de esto se puede apreciar a continuación:
+          p.mb-0 Cuando se acude a la biblioteca se observa algo como una ventana para la selección de objetos, allí se puede apreciar el nombre y una breve descripción de cada uno de los componentes contenidos. El aspecto visual de esto difiere dependiendo del <i>software</i> de simulación, en algunas es muy simple y los componentes se aprecian a simple vista, pero cuando la aplicación es muy robusta trae una gran variedad de componentes, lo que conlleva a agruparlos por categorías, lo que hace necesario brindar opciones para que se pueda navegar por las librerías de componentes para elegir los que formarán el diseño y también es posible hacer una búsqueda concreta. Un ejemplo de esto se puede apreciar a continuación:
       .col-md-6.d-flex
         .box-light-25.color-primario.p-5
           .titulo-sexto.color-acento-contenido
@@ -159,13 +159,6 @@
               br
               | Para conectar los demás componentes repetir los pasos anteriores y finalmente muestra cómo queda el circuito totalmente conexionado.
         
-    
-
-
-    p.mb-5 Después de realizar las conexiones se pueden mover para ajustarlas y así mantener el diseño ordenado. Para esto, seleccione la línea de conexión por modificar, esta quedará en rojo; si se pone el cursor sobre ella, este cambiará de forma.
-      br
-      br
-      | Haga clic sobre la línea seleccionada y arrastre el cursor en la dirección deseada sin soltarlo, a la izquierda o derecha para un segmento vertical, hacia arriba o abajo para uno horizontal, o en cualquier dirección si es una esquina de la conexión. Suelte el botón del mouse para que la línea o la esquina tomen su nueva posición. Mediante este sencillo procedimiento se reorganizan las conexiones para que todo quede ordenado como se quiere, también es posible seleccionar más de una línea de conexión a la vez y moverlas juntas para acelerar la tarea.
 
     h3.titulo-tercero Mover y borrar conexiones
 
@@ -174,7 +167,7 @@
         p.mb-0
           strong Después de realizar las conexiones se pueden mover para ajustarlas y así mantener el diseño ordenado. Para esto, seleccione la línea de conexión por modificar, esta quedará en rojo; si se pone el cursor sobre ella, este cambiará de forma.
       .col-md-7
-        p.mb-0 Haga clic sobre la línea seleccionada y arrastre el cursor en la dirección deseada sin soltarlo, a la izquierda o derecha para un segmento vertical, hacia arriba o abajo para uno horizontal, o en cualquier dirección si es una esquina de la conexión. Suelte el botón del mouse para que la línea o la esquina tomen su nueva posición. Mediante este sencillo procedimiento se reorganizan las conexiones para que todo quede ordenado como se quiere, también es posible seleccionar más de una línea de conexión a la vez y moverlas juntas para acelerar la tarea.
+        p.mb-0 Haga clic sobre la línea seleccionada y arrastre el cursor en la dirección deseada sin soltarlo, a la izquierda o derecha para un segmento vertical, hacia arriba o abajo para uno horizontal, o en cualquier dirección si es una esquina de la conexión. Suelte el botón del <i>mouse</i> para que la línea o la esquina tomen su nueva posición. Mediante este sencillo procedimiento se reorganizan las conexiones para que todo quede ordenado como se quiere, también es posible seleccionar más de una línea de conexión a la vez y moverlas juntas para acelerar la tarea.
 
     Separador
 
@@ -190,7 +183,7 @@
     .row
       .col-md-6.mb-4.mb-md-0.d-flex
         .box-light-25.color-acento-botones.p-5
-          p.mb-0 Ahora que se sabe cómo editar las propiedades de los componentes se presenta un ejemplo de un oscilador. Al dibujar el oscilador por primera vez se dejan los valores por defecto del resistor y del capacitor R=10 kohm y C=1 nF. Con estos valores, el oscilador generará una señal de aproximadamente 120 kHz, lo cual es muy alto y no se puede apreciar en detalle, entonces, para lograr una mejor visualización se cambiarán los valores a R=15 kohm y C=47uF; con esto el oscilador tendrá una frecuencia aproximada de 1 Hz y se podrá ver su funcionamiento con más claridad al correr la simulación. De manera que se puede realizar este circuito como práctica y analizar los resultados, como se muestra a continuación:
+          p.mb-0 Ahora que se sabe cómo editar las propiedades de los componentes se presenta un ejemplo de un oscilador. Al dibujar el oscilador por primera vez se dejan los valores por defecto del resistor y del capacitor R = 10 kohm y C = 1 nF. Con estos valores, el oscilador generará una señal de aproximadamente 120 kHz, lo cual es muy alto y no se puede apreciar en detalle, entonces, para lograr una mejor visualización se cambiarán los valores a R = 15 kohm y C = 47uF; con esto el oscilador tendrá una frecuencia aproximada de 1 Hz y se podrá ver su funcionamiento con más claridad al correr la simulación. De manera que se puede realizar este circuito como práctica y analizar los resultados, como se muestra a continuación:
       .col-md-6.d-flex
         .box-light-25.color-primario.p-5
           .titulo-sexto.color-acento-contenido
@@ -203,13 +196,13 @@
     Separador
 
     #t_4_4.titulo-segundo(data-aos="fade-in")
-      h2 4.4  Parametrización de componentes
+      h2 4.4  Visualización de resultados
 
     .mb-5.px-4.py-2.texto-color-offset-top-left-4
-      p Se puede observar mejor el funcionamiento de los circuitos cambiando algunas opciones de animación, para hacerlo, buscar en el simulador la ubicación de la configuración de las animaciones y visualizaciones del simulador. Se abrirá el cuadro de diálogo de Animated Circuits Configuration con dos secciones principales, velocidad de simulación para controlar esta en el circuito a simular y opciones de simulación para configurar la forma en que se verá la simulación.
+      p Se puede observar mejor el funcionamiento de los circuitos cambiando algunas opciones de animación, para hacerlo, buscar en el simulador la ubicación de la configuración de las animaciones y visualizaciones del simulador. Se abrirá el cuadro de diálogo de <i>Animated Circuits Configuration</i> con dos secciones principales, velocidad de simulación para controlar esta en el circuito a simular y opciones de simulación para configurar la forma en que se verá la simulación.
         br
         br
-        | Las opciones de velocidad y de animación permiten ver la simulación de diferentes maneras, siguiendo algunas recomendaciones. Las opciones Frames per Second y Timestep per Frame determinan la velocidad de animación del circuito; los valores por defecto son 20 y 50 m, respectivamente, entonces, si se multiplica 20 cuadros cada segundo, por 50 milisegundos de cada cuadro, se obtiene un tiempo exacto de un segundo, lo cual indica que la simulación correrá en tiempo real.
+        | Las opciones de velocidad y de animación permiten ver la simulación de diferentes maneras, siguiendo algunas recomendaciones. Las opciones <i>Frames per Second</i> y <i>Timestep per Frame</i> determinan la velocidad de animación del circuito; los valores por defecto son 20 y 50 m, respectivamente, entonces, si se multiplica 20 cuadros cada segundo, por 50 milisegundos de cada cuadro, se obtiene un tiempo exacto de un segundo, lo cual indica que la simulación correrá en tiempo real.
         br
         br
         | Si se quiere mantener esta velocidad real se debe asegurar que la multiplicación de estos campos arroje un resultado de un segundo; por ejemplo, para 50 cuadros por segundo se tiene que ingresar un tiempo por cuadro de 20 milisegundos (20 ms). Se puede variar estos valores para acelerar o ralentizar la simulación; si se coloca una combinación de 20 por 100 ms, por ejemplo, el resultado será 2 segundos, de modo que por cada segundo transcurrido, en la simulación habrán pasado 2 segundos, y de esta forma se habrá acelerado el proceso al doble de la velocidad real.
@@ -231,7 +224,7 @@
 
     h3.titulo-tercero Visualización de parámetros instantáneos
 
-    p.mb-5 Durante cualquier simulación se puede realizar pausas y ejecutar una simulación paso a paso que está en la mayoría de los simuladores. En algunos simuladores mientras la simulación permanezca en este estado y se lleve el cursor del mouse sobre cualquier componente, este tomará la forma de una mano. Al hacer un clic sobre cualquier componente del circuito se mostrará una ventana que contiene información sobre los parámetros del componente en ese momento. Estos parámetros son llamados parámetros instantáneos y son los siguientes:
+    p.mb-5 Durante cualquier simulación se puede realizar pausas y ejecutar una simulación paso a paso que está en la mayoría de los simuladores. En algunos simuladores mientras la simulación permanezca en este estado y se lleve el cursor del <i>mouse</i> sobre cualquier componente, este tomará la forma de una mano. Al hacer un clic sobre cualquier componente del circuito se mostrará una ventana que contiene información sobre los parámetros del componente en ese momento. Estos parámetros son llamados parámetros instantáneos y son los siguientes:
 
     .row.justify-content-center.mb-4
       .col-auto
@@ -263,7 +256,7 @@
           p.mb-0 Estos valores se toman directamente, es decir, se miden justo en el momento de la pausa, por ejemplo, a los 4 segundos. Otros elementos presentan diferentes parámetros según el componente de que se trate. 
             br
             br
-            | Finalmente, en algunos componentes, sobre todo en los que tienen actuadores, no se puede acceder a esta función con un clic, ya que es como si se presionara los actuadores. En estos casos, se hace un clic con el botón derecho del mouse, y en el menú contextual se selecciona la opción que visualice esa información, como se muestra en la figura 7.
+            | Finalmente, en algunos componentes, sobre todo en los que tienen actuadores, no se puede acceder a esta función con un clic, ya que es como si se presionara los actuadores. En estos casos, se hace un clic con el botón derecho del <i>mouse</i>, y en el menú contextual se selecciona la opción que visualice esa información, como se muestra en la figura 7.
 
 </template>
 

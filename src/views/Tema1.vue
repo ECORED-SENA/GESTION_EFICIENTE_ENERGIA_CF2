@@ -37,7 +37,7 @@
     p.mb-5 Para que exista una corriente eléctrica se requiere la conexión entre la fuente y la resistencia formando así un circuito cerrado, por ejemplo, una bombilla conectada a una pila forma un circuito cerrado. La corriente va desde el terminal negativo (-), pasa por la lámpara, llega al borde positivo (+), continúa su recorrido por dentro de la pila desde este terminal positivo (+) hasta el terminal negativo (-).
       br
       br
-      | Mientras esta trayectoria no esté interrumpida se trata de un circuito cerrado y la corriente fluye. Si se interrumpe el camino en cualquier punto no hay flujo de corriente eléctrica y se trata de un circuito abierto. En este caso la corriente eléctrica es igual a cero, esto es lo que sucede cuando se abre un interruptor “switch" o cuando se quema una de las cargas, todas las cargas dejarán de trabajar, pues no hay manera de que la corriente complete el circuito de regreso a la fuente.
+      | Mientras esta trayectoria no esté interrumpida se trata de un circuito cerrado y la corriente fluye. Si se interrumpe el camino en cualquier punto no hay flujo de corriente eléctrica y se trata de un circuito abierto. En este caso la corriente eléctrica es igual a cero, esto es lo que sucede cuando se abre un interruptor <i>"switch"</i> o cuando se quema una de las cargas, todas las cargas dejarán de trabajar, pues no hay manera de que la corriente complete el circuito de regreso a la fuente.
     
     .row.justify-content-center.mb-5
       .col-12.col-lg-10.mb-5.mb-lg-0
@@ -82,7 +82,7 @@
     #t_1_2.titulo-segundo
       h2 1.2  Ley de Ohm
 
-    p.mb-5 La Ley de Ohm muestra la relación entre la tensión (o voltaje), la corriente y la resistencia en un circuito eléctrico. (Mantilla Q., 1983, p. 21). Esta relación fue enunciada por el físico Alemán George Simon Ohm (García Á., 2005), y establece que:
+    p.mb-5 La Ley de Ohm muestra la relación entre la tensión (o voltaje), la corriente y la resistencia en un circuito eléctrico. (Mantilla Q., 1983, p. 21). Esta relación fue enunciada por el físico alemán Georg Simon Ohm (García Á., 2005), y establece que:
 
     .row.justify-content-center.mb-4(data-aos="slide-left" data-aos-duration="900")
       .col-12.col-lg-8

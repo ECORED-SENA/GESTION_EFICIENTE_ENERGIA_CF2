@@ -31,12 +31,12 @@
       p.mb-0 Cuando se conecta un equipo o consumidor eléctrico a un circuito alimentado por una fuente de fuerza electromotriz (F.E.M) como puede ser una batería, la energía eléctrica que suministra fluye por el conductor, permitiendo que, por ejemplo, una bombilla de alumbrado transforme esa energía en luz y calor o un motor pueda mover una maquinaria, esta energía consumida se mide kWh. De acuerdo con la definición de la física, “la energía ni se crea ni se destruye, se transforma”, en el caso de la energía eléctrica, esa transformación se manifiesta en la obtención de luz, calor, frío, movimiento o en otro trabajo útil que realice cualquier dispositivo conectado a un circuito eléctrico cerrado.
         br
         br
-        | Cuando se tiene una carga resistiva conectada en un circuito eléctrico se le llama carga activa, y en este caso, cuando se conoce el valor de la tensión eléctrica y la corriente que circula por la resistencia. También se llama potencia media, real o verdadera, debido a los dispositivos resistivos, su unidad de medida en el vatio (W) y se calcula como:
+        | Cuando se tiene una carga resistiva conectada en un circuito eléctrico se le llama carga activa, y en este caso, cuando se conoce el valor de la tensión eléctrica y la corriente que circula por la resistencia. También se llama potencia media, real o verdadera, debido a los dispositivos resistivos, su unidad de medida es el vatio (W) y se calcula como:
     
     .row.justify-content-center.mb-5(data-aos="slide-up" data-aos-duration="900")
       .col-lg-7
         .box-light-25.color-blue.p-5
-          .h3.mb-2 <strong>P= V*I*Cos(φ)</strong>
+          .h3.mb-2 <strong>P = V*I*Cos(φ)</strong>
           p.mb-4
             | Donde:
           .row.align-items-center.mb-4
@@ -65,17 +65,17 @@
               | Ángulo Phi: es el ángulo de desfase entre la tensión y la intensidad.
           p.mb-0 Siendo φ:
             br
-            strong Φ=arctag(X/R)
+            strong Φ = arctang(X/R)
             br
             br
             | Donde X es la reactancia y R es la resistencia de la carga conectada, siendo la impedancia:
             br
-            strong Z= R+jX
+            strong Z = R + jX
             br
             br
             | También puede obtenerse como:
             br
-            strong P=R*I²=V²/R 
+            strong P = R*I² = V²/R 
 
     p.mb-5(data-aos="fade-in") En las cargas activas como la resistencia, lámparas de iluminación incandescentes o halógenas, calentadores eléctricos con resistencias de alambre nicromo (NiCr), el factor de potencia es igual a "1", que es el valor ideal de un circuito eléctrico y por eso en la fórmula normalmente no se ve, ya que toda cantidad multiplicada por uno queda igual.
     
@@ -98,22 +98,22 @@
                 p Por eso las compañías de electricidad multan a las empresas que tienen un factor de potencia bajo. Las empresas para evitar esas multas utilizan cargas capacitivas, que compensan a las cargas inductivas; se usan capacitores que aumentan el factor de potencia, tratando de llevarlo a valores cercanos a "1". También en las chapas de los motores está indicado el factor de potencia, además de la tensión de alimentación, la frecuencia, la corriente nominal, la potencia y la velocidad nominal.
         .row
           .col-lg-8.mb-5.mb-lg-0
-            p.mb-0 En resumen, potencia reactiva (Q) es la potencia que necesitan las bobinas y los condensadores para generar campos magnéticos o eléctricos, que no se transforma en trabajo efectivo sino que fluctúa por la red entre el generador y los receptores, su unidad de medida es el voltamperio reactivo (VAr). Para calcular la potencia de un equipo que trabaja con corriente alterna monofásica se tiene:
+            p.mb-0 En resumen, potencia reactiva (Q) es la potencia que necesitan las bobinas y los condensadores para generar campos magnéticos o eléctricos, que no se transforma en trabajo efectivo, sino que fluctúa por la red entre el generador y los receptores, su unidad de medida es el voltamperio reactivo (VAr). Para calcular la potencia de un equipo que trabaja con corriente alterna monofásica se tiene:
           .col-lg-4
             .contenedor-bordes-azules.p-4
               p.mb-0 
-                strong Q= V*I*Sen(φ)
+                strong Q = V*I*Sen(φ)
                 br
                 br
                 | También puede obtenerse como:
                 br
-                strong Q=X*I²=V²/X
+                strong Q = X*I² = V²/X
     p.mb-5(data-aos="fade-in") La potencia reactiva es positiva si el receptor es inductivo y negativa si el receptor es capacitivo, coincidiendo en signo con la parte imaginaria de la impedancia.
 
     Separador
 
     #t_2_3.titulo-segundo(data-aos="fade-in")
-      h2 2.3  Potencia apartente
+      h2 2.3  Potencia aparente
 
     .row.mb-5
       .col-lg-5.mb-5.mb-lg-0.d-flex(data-aos="slide-left" data-aos-duration="900")
@@ -139,7 +139,7 @@
             | Al ser la suma vectorial de P y Q, que son los catetos de un triángulo rectángulo en el que S es la hipotenusa, según la figura, también puede calcularse como:
             br
             br
-            strong.h2.mb-0 S=√(P²+Q²)
+            strong.h2.mb-0 S = √(P² + Q²)
 
     p.mb-5(data-aos="fade-in") Estas potencias se representan en el denominado triángulo de potencias que se ve en la figura anterior; para comprender mejor dicho triángulo es conveniente partir del triángulo de impedancias de un circuito pasivo en serie, tomando como origen de fases la intensidad y multiplicando por la intensidad los tres lados del triángulo, obteniendo el triángulo de tensiones. Si se vuelve a multiplicar los tres lados del triángulo de tensiones por la intensidad se obtiene el triángulo de potencias.
     
@@ -251,7 +251,7 @@
               | Uso de electrodomésticos que tienen altos consumos en el hogar por kilovatios/hora (kWh), a raíz de su uso frecuente.
             li 
               i.fas.fa-atom
-              | Aumento en el costo del kW/h hora.
+              | Aumento en el costo del kWh.
             li 
               i.fas.fa-atom
               | Financiación solicitada por el usuario por el servicio de energía.
@@ -272,7 +272,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h3.mb-1 <i>Tips</i> que permiten controlar los consumos de energía
-                  p.text-small <i>Tips</i> que nos permiten controlar los consumos de energía - infografía.
+                  //- p.text-small <i>Tips</i> que nos permiten controlar los consumos de energía - infografía.
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="obtenerLink('/downloads/Tips_Energia.pdf')" target="_blank")
                     span Descargar

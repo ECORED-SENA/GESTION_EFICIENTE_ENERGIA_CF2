@@ -86,7 +86,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Potencia apartente',
+            titulo: 'Potencia aparente',
             hash: 't_2_3',
           },
           {
@@ -158,7 +158,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '4.4',
-            titulo: 'Parametrización de componentes',
+            titulo: 'Visualización de resultados',
             hash: 't_4_4',
           },
         ],
@@ -310,9 +310,9 @@ export default {
         'Es un recorrido cerrado del circuito que resulta de recorrer el esquema eléctrico en un mismo sentido, regresando al punto de partida, pero sin pasar dos veces por la misma rama.',
     },
     {
-      termino: '<i>Software</i> de simulación eléctrica',
+      termino: 'Software de simulación eléctrica',
       significado:
-        'Herramienta de software utilizada por profesionales en el campo de la electricidad y por los estudiantes de las carreras del área eléctrica y afines.',
+        'Herramienta de <i>software</i> utilizada por profesionales en el campo de la electricidad y por los estudiantes de las carreras del área eléctrica y afines.',
     },
   ],
   complementario: [
@@ -357,6 +357,34 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
+      {
+        nombre: 'Carlos Javier González Cuevas',
+        cargo: 'Experto temático',
+        centro:
+          'Centro Electricidad, Electrónica y Telecomunicaciones - Regional Distrito Capital ',
+      },
+      {
+        nombre: 'Jaime Mauricio Peñaloza Trespalacios',
+        cargo: 'Experto temático',
+        centro:
+          'Centro Electricidad, Electrónica y Telecomunicaciones - Regional Distrito Capital ',
+      },
+      {
+        nombre: 'Zvi Daniel Grosman Landáez',
+        cargo: 'Diseñador instruccional',
+        centro: 'Centro Agropecuario La Granja - Regional Tolima',
+      },
+      {
+        nombre: 'Carolina Coca Salazar',
+        cargo: 'Revisora metodológica y pedagógica',
+        centro: 'Centro de Metrología y Diseño - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Julia Isabel Roberto',
+        cargo: 'Diseñadora y evaluadora instruccional',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
+      },
     ],
     desarrolloProducto: [
       {
@@ -371,25 +399,54 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: 'María Natalia Maldonado Delgado',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Sergio Omar Camacho Orduz',
         cargo: 'Desarrollo Front-End',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Zuleidy Maria Ruiz Torres',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Cáceres',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Víctor Raúl Cárdenas Cáceres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Lina Marcela Pérez Manchego',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Andrés Felipe Herrera Roldan',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Jhana Johanna Bustillo Ardila',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
