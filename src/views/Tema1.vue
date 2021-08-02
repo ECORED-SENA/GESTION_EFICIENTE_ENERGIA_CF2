@@ -241,6 +241,28 @@
           br
           | El valor de la potencia será de 120 vatios.
 
+    .row
+      .col-lg-6.mb-5.mb-lg-0
+        .cajon.color-acento-botones.p-5
+          p.mb-5 De la fórmula V x I se puede deducir otras dos:
+          .row.justify-content-center.mb-5
+            .col-lg-6
+              figure
+                img(src="@/assets/curso/tema1-imagen39.svg")
+          p.mb-0 Estas fórmulas permiten la solución de muchos casos de índole práctico, por ejemplo:
+      .col-lg-6
+        .p-5
+          p.mb-5 Una lámpara tiene los siguientes datos en su placa de características 
+            strong V = 125 V y P = 100 W
+            br
+            br
+            | ¿Cuál será el valor de la intensidad?
+          .row.mb-5
+            .col-lg-6
+              figure
+                img(src="@/assets/curso/tema1-imagen40.svg")
+          p.mb-0 La intensidad será de 
+            strong 0.84 amperios.
     Separador
 
     #t_1_4.titulo-segundo
@@ -441,7 +463,7 @@
     p.mb-5 Debido a esta energía almacenada es posible encontrar voltajes y corrientes en circuitos que contengan bobinas y/o condensadores sin estar conectados a ninguna fuente. A esta forma de respuesta se le conoce como respuesta natural o transitoria del circuito porque no depende de la fuente sino de la topología de conexión de los elementos acumuladores de energía. La forma más sencilla de respuesta natural se encuentra en los llamados circuitos de primer orden, que corresponden a circuitos que pueden ser reducidos a una resistencia en serie con una bobina (RL) o a una resistencia en serie con un condensador (RC).
       br
       br
-      | Las gráficas que siguen fueron tomadas y adaptadas del texto “Análisis de circuitos en Ingeniería” de Hayt & Kemmerly.
+      | Las gráficas que siguen fueron tomadas y adaptadas del texto <i>“Análisis de circuitos en Ingeniería”</i> de Hayt & Kemmerly.
     
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -490,7 +512,7 @@
           p.mb-0 Antes de presentar el concepto fasores se debe primero recordar que un vector es una representación gráfica y matemática de una variable física; se compone de una magnitud y una dirección expresada, por lo general, de forma cuantitativa con un ángulo. Para los circuitos eléctricos de corriente alterna, el voltaje y la corriente poseen características similares; para el voltaje y la corriente, en corriente continua por la naturaleza de las ondas al no presentarse oscilaciones, el ángulo de ellas es igual a cero. 
             br
             br
-            | En los circuitos eléctricos un fasor es una representación matemática de un vector que se utiliza para caracterizar las propiedades de amplitud y ángulo para una onda senoidal de voltaje o de corriente. Para efectos prácticos, el valor resultante de la diferencia (resta) de los ángulos entre el fasor de voltaje y corriente, están determinados por el tipo de carga o impedancia del circuito.
+            | En los circuitos eléctricos un fasor es <strong>una representación matemática de un vector</strong> que se utiliza para caracterizar las propiedades de amplitud y ángulo para una onda senoidal de voltaje o de corriente. Para efectos prácticos, el valor resultante de la diferencia (resta) de los ángulos entre el fasor de voltaje y corriente, están determinados por el tipo de carga o impedancia del circuito.
     p.mb-5 A continuación, se muestra la diferencia del ángulo entre el voltaje y la corriente para tres tipos de cargas diferentes:
 
     .row.mb-5.justify-content-center

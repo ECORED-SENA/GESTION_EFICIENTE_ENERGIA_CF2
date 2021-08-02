@@ -10,6 +10,33 @@
 
     p.mb-5 Es un sistema compuesto por una fuente de alimentación, como su nombre lo indica trifásica, además da cuenta de las líneas de alimentación y de una o varias cargas. Ahora, se profundizará en el tema: 
 
+    .row.mb-5
+      .col-lg-4.mb-5.mb-lg-0.d-flex
+        .px-4.py-5(style="background-color: #E4EAF0").rounded
+          .titulo-sexto.color-acento-contenido
+            span Generador trifásico
+          figure.mb-5
+            img(src="@/assets/curso/tema3-imagen29.svg")
+            figcaption Fuente: Repositorio SENA.
+          p.mb-0 La mayor parte de la energía se distribuye en la forma de CA trifásica. En este caso, básicamente se tiene que, en vez de una sola bobina rotando dentro de un generador, existen tres bobinas, espaciadas entre sí 120 grados, como se puede ver en la imagen.
+
+      .col-lg-4.mb-5.mb-lg-0.d-flex
+        .px-4.py-5(style="background-color: #F3F5F8").rounded
+          .titulo-sexto.color-acento-contenido
+            span Señal trifásica 
+          figure.mb-5
+            img(src="@/assets/curso/tema3-imagen30.svg")
+            figcaption Fuente: Repositorio SENA.
+          p.mb-0 Mientras las bobinas giran dentro del campo magnético se envía energía por tres líneas. Se originan, así, tres ondas sinusoidales de corriente y de voltaje, las cuales tienen entre sí una diferencia de fase de 120 grados. Cada onda sinusoidal representa el voltaje o la corriente de una de las fases.
+      .col-lg-4.d-flex
+        .px-4.py-5(style="background-color: #E4EAF0").rounded
+          .titulo-sexto.color-acento-contenido
+            span Líneas trifásicas
+          figure.mb-5
+            img(src="@/assets/curso/tema3-imagen30.svg")
+            figcaption Fuente: Repositorio SENA.
+          p.mb-0 La electricidad trifásica energiza las grandes cargas industriales con más eficiencia, que la electricidad de una sola fase. Cuando se necesite electricidad de una sola fase, esta se encuentra disponible entre dos fases cualesquiera o, en algunos sistemas, entre una de las fases y tierra.
+
     .row.justify-content-center
       .col-lg-8
         .cajon.color-primario.px-5.py-4.mb-4
@@ -67,17 +94,75 @@
 
     .tarjeta.tarjeta--gris.px-5.py-4.mb-5
       LineaTiempoC.color-acento-contenido(text-small)
-        .row(titulo="").justify-content-center.align-items-center.gx-5
-          .offset-md-2.col-md-4.mb-4.mb-md-0
+        .row(titulo="").justify-content-center.gx-5
+          .offset-md-1.col-md-5.mb-4.mb-md-0
             figure
-              img(src='@/assets/curso/tema3-imagen4.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/tema3-imagen22.svg', alt='Texto que describa la imagen')
               figcaption
-                i Tensiones y corrientes en una estrella equilibrada.
-        
+                i Conexión trifásica Y
+          .col-md-6
+            p.mb-0 Se muestran tres impedancias iguales conectadas formando una estrella equilibrada. Ambas figuras son equivalentes y son dos formas de representar la misma conexión.
+        .row(titulo="").justify-content-center.gx-5
+          .col-md-6.mb-4.mb-md-0
+            figure
+              img(src='@/assets/curso/tema3-imagen21.svg', alt='Texto que describa la imagen')
+              figcaption
+                i Conexión de tres impedancias formando un triángulo equilibrado 
+          .col-md-6
+            p.mb-0 Así pues, en el caso de un sistema de tres impedancias la conexión triángulo se realiza como se muestra en la figura. Ambas figuras son equivalentes y son dos formas de representar la misma conexión que, al tratarse de impedancias iguales, se trata de un triángulo equilibrado. 
+        .row(titulo="").justify-content-center.gx-5
+          .col-md-6.mb-4.mb-md-0
+            figure
+              img(src='@/assets/curso/tema3-imagen23.svg', alt='Texto que describa la imagen')
+              figcaption
+                i Conexión de tres impedancias formando una estrella equilibrada
+          .col-md-6
+            p.mb-0 El neutro de la estrella puede estar unido al conductor neutro de la red trifásica o estar aislado. En ambos casos el comportamiento de una estrella equilibrada es el mismo.
+        .row(titulo="").justify-content-center.gx-5
+          .col-md-6.mb-4.mb-md-0
+            p.mb-0 Estas son, pues, las magnitudes de fase en la estrella y, en consecuencia, se cumple que:
           .col-md-5
-            p Como se puede apreciar en la figura, cada fase de la estrella está sometida a la tensión fase-neutro y está recorrida por la corriente de línea correspondiente.
+            figure
+              img(src='@/assets/curso/tema3-imagen24.jpg', alt='Texto que describa la imagen')
+          .col-md-6.mb-4.mb-md-0
+            p.mb-0 Además, aplicando la Ley de Ohm, como en la relación de VF, se deduce que:
+          .col-md-6
+            figure
+              img(src='@/assets/curso/tema3-imagen25.jpg', alt='Texto que describa la imagen')
+
+        .row(titulo="").justify-content-center.gx-5
+          .offset-md-1.col-md-5.mb-4.mb-md-0
+            figure
+              img(src='@/assets/curso/tema3-imagen32.svg', alt='Texto que describa la imagen')
+              figcaption
+                i Conexión de tres impedancias formando una estrella equilibrada
+          .col-md-6
+            p.mb-0 Si las impedancias tienen al ángulo como argumento (Z), las corrientes de fase están desfasadas el mismo ángulo con respecto a sus respectivas tensiones de fase, de lo cual se obtiene el diagrama fasorial, en esta figura se supone que es positivo (inductivo):
+        .row(titulo="").justify-content-center.gx-5
+          .col-12.mb-4
+            p.mb-0 Si se mantiene, como hasta ahora, a <strong>VST</strong> como referencia del diagrama fasorial, como sucede en la figura las corrientes de fase iguales a las corrientes de línea son:
+          
+          .col-md-8.mb-4
+            figure
+              img(src='@/assets/curso/tema3-imagen27.jpg', alt='Texto que describa la imagen')
+
+          .col-md-6.mb-4.mb-md-0
+            p.mb-0 Y, evidentemente, en una estrella equilibrada la corriente en el neutro es nula:
+          .col-md-3
+            figure
+              img(src='@/assets/curso/tema3-imagen28.jpg', alt='Texto que describa la imagen')
 
 
+
+    Separador
+
+    #t_3_2.titulo-segundo(data-aos="fade-in")
+      h2 3.2  Conexión "Δ"
+
+    p.mb-4 Para poder comprender una conexión “Δ” se debe comprender lo indicado a continuación: 
+
+    .tarjeta.tarjeta--gris.px-5.py-4.mb-5
+      LineaTiempoC.color-acento-contenido(text-small)
         .row(titulo="").justify-content-center.gx-5
           .offset-md-2.col-md-5.mb-4.mb-md-0
             figure
@@ -87,7 +172,15 @@
         
           .col-md-5
             p Además de la conexión estrella estudiada hasta ahora, en la que cada elemento de un sistema trifásico se conecta entre una fase y el neutro, existe también la conexión triángulo, que ya apareció en el estudio de la transformación de Kennelly en los circuitos monofásicos. En la conexión triángulo cada elemento de un sistema trifásico se conecta entre dos conductores de fase, por lo que en esta conexión no se utiliza el conductor neutro. 
-
+        .row(titulo="").justify-content-center.align-items-center.gx-5
+          .offset-md-2.col-md-4.mb-4.mb-md-0
+            figure
+              img(src='@/assets/curso/tema3-imagen4.svg', alt='Texto que describa la imagen')
+              figcaption
+                i Tensiones y corrientes en una estrella equilibrada.
+        
+          .col-md-5
+            p Como se puede apreciar en la figura, cada fase de la estrella está sometida a la tensión fase-neutro y está recorrida por la corriente de línea correspondiente.
         .row(titulo="").justify-content-center.gx-5
           .col-md-6.mb-4.mb-md-0
             figure
@@ -195,65 +288,6 @@
               br
               | En un triángulo equilibrado el ángulo es también el desfase entre una corriente de línea y la tensión fase-neutro correspondiente, al igual que sucede en la conexión estrella equilibrada (se supone que es positivo).
     
-    Separador
-
-    #t_3_2.titulo-segundo(data-aos="fade-in")
-      h2 3.2  Conexión "Δ"
-
-    p.mb-4 Para poder comprender una conexión “Δ” se debe comprender lo indicado a continuación: 
-
-    .tarjeta.tarjeta--gris.px-5.py-4.mb-5
-      LineaTiempoC.color-acento-contenido(text-small)
-        .row(titulo="").justify-content-center.gx-5
-          .col-md-6.mb-4.mb-md-0
-            figure
-              img(src='@/assets/curso/tema3-imagen21.svg', alt='Texto que describa la imagen')
-              figcaption
-                i Conexión de tres impedancias formando un triángulo equilibrado 
-          .col-md-6
-            p.mb-0 Así pues, en el caso de un sistema de tres impedancias la conexión triángulo se realiza como se muestra en la figura. Ambas figuras son equivalentes y son dos formas de representar la misma conexión que, al tratarse de impedancias iguales, se trata de un triángulo equilibrado. 
-        .row(titulo="").justify-content-center.gx-5
-          .offset-md-1.col-md-5.mb-4.mb-md-0
-            figure
-              img(src='@/assets/curso/tema3-imagen22.svg', alt='Texto que describa la imagen')
-              figcaption
-                i Conexión trifásica Y
-          .col-md-6
-            p.mb-0 Se muestran tres impedancias iguales conectadas formando una estrella equilibrada. Ambas figuras son equivalentes y son dos formas de representar la misma conexión.
-        .row(titulo="").justify-content-center.gx-5
-          .col-md-6.mb-4.mb-md-0
-            figure
-              img(src='@/assets/curso/tema3-imagen23.svg', alt='Texto que describa la imagen')
-              figcaption
-                i Conexión de tres impedancias formando una estrella equilibrada
-          .col-md-6
-            p.mb-0 El neutro de la estrella puede estar unido al conductor neutro de la red trifásica o estar aislado. En ambos casos el comportamiento de una estrella equilibrada es el mismo.
-        .row(titulo="").justify-content-center.gx-5
-          .col-md-6.mb-4.mb-md-0
-            p.mb-0 Estas son, pues, las magnitudes de fase en la estrella y, en consecuencia, se cumple que:
-          .col-md-5
-            figure
-              img(src='@/assets/curso/tema3-imagen24.jpg', alt='Texto que describa la imagen')
-          .col-md-6.mb-4.mb-md-0
-            p.mb-0 Además, aplicando la Ley de Ohm, como en la relación de VF, se deduce que:
-          .col-md-6
-            figure
-              img(src='@/assets/curso/tema3-imagen25.jpg', alt='Texto que describa la imagen')
-        .row(titulo="").justify-content-center.gx-5
-          .col-12.mb-4
-            p.mb-0 Si se mantiene, como hasta ahora, a <strong>VST</strong> como referencia del diagrama fasorial, como sucede en la figura las corrientes de fase iguales a las corrientes de línea son:
-          
-          .col-md-8.mb-4
-            figure
-              img(src='@/assets/curso/tema3-imagen27.jpg', alt='Texto que describa la imagen')
-
-          .col-md-6.mb-4.mb-md-0
-            p.mb-0 Y, evidentemente, en una estrella equilibrada la corriente en el neutro es nula:
-          .col-md-3
-            figure
-              img(src='@/assets/curso/tema3-imagen28.jpg', alt='Texto que describa la imagen')
-
-
     p.mb-4 Luego, se deduce que hay una regla general, válida tanto para la conexión triángulo como para la conexión estrella, que dice que el desfase entre una tensión simple o fase-neutro y su correspondiente corriente de línea es el ángulo. Por esta razón, si se examina la relación (IR, IS e IT) obtenida para la conexión estrella, y la relación (IR, IS e IT) obtenida para la conexión triángulo, se observa que en ambas los argumentos de las corrientes de línea son los mismos.
 
     Separador 
