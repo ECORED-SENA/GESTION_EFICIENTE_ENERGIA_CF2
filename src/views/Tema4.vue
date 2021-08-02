@@ -90,7 +90,7 @@
         .row
           .col-md-6.mb-5.mb-md-0
             figure
-              img(src='@/assets/curso/tema4-imagen7.jpg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/tema4-imagen7.jpeg', alt='Texto que describa la imagen')
               figcaption
                 i Componentes escogidos ya ubicados en el área de trabajo.
           .col-md-6
@@ -100,7 +100,7 @@
         .row
           .col-md-6.mb-5.mb-md-0
             figure
-              img(src='@/assets/curso/tema4-imagen8.jpg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/tema4-imagen8.jpeg', alt='Texto que describa la imagen')
               figcaption
                 i Lugar correcto de conexión de componente inicial.
           .col-md-6
@@ -110,7 +110,7 @@
         .row
           .col-md-6.mb-5.mb-md-0
             figure
-              img(src='@/assets/curso/tema4-imagen9.jpg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/tema4-imagen9.jpeg', alt='Texto que describa la imagen')
               figcaption
                 i Lugar correcto de conexión de componente final.
           .col-md-6
@@ -120,7 +120,7 @@
         .row
           .col-md-6.mb-5.mb-md-0
             figure
-              img(src='@/assets/curso/tema4-imagen10.jpg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/tema4-imagen10.jpeg', alt='Texto que describa la imagen')
               figcaption
                 i Lugar correcto de conexión de R1 y C1.
           .col-md-6
@@ -130,7 +130,7 @@
         .row
           .col-md-6.mb-5.mb-md-0
             figure
-              img(src='@/assets/curso/tema4-imagen11.jpg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/tema4-imagen11.jpeg', alt='Texto que describa la imagen')
               figcaption
                 i Conexión de R1 y C1.
           .col-md-6
@@ -140,7 +140,7 @@
         .row
           .col-md-6.mb-5.mb-md-0
             figure
-              img(src='@/assets/curso/tema4-imagen12.jpg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/tema4-imagen12.jpeg', alt='Texto que describa la imagen')
               figcaption
                 i Conexión de R1 y C1.
           .col-md-6
@@ -150,7 +150,7 @@
         .row
           .col-md-6.mb-5.mb-md-0
             figure
-              img(src='@/assets/curso/tema4-imagen13.jpg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/tema4-imagen13.jpeg', alt='Texto que describa la imagen')
               figcaption
                 i Fin de Conexión de componentes. 
           .col-md-6
