@@ -71,7 +71,7 @@
             h5 Figura 4
             span Biblioteca de componentes
           figure
-            img(src='@/assets/curso/tema4-imagen3.jpg', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/tema4-imagen3.jpeg', alt='Texto que describa la imagen')
             figcaption Fuente: SENA
     
     Separador
@@ -190,7 +190,7 @@
             h5 Figura 5
             span Parametrización de componentes
           figure
-            img(src='@/assets/curso/tema4-imagen4.jpg', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/tema4-imagen4.jpeg', alt='Texto que describa la imagen')
             figcaption Fuente: SENA
 
     Separador

@@ -233,7 +233,7 @@
               h5 Figura 3
               span Modelo de factura de servicio de energía
             figure
-              img(src="@/assets/curso/tema2-imagen9.svg")
+              img(src="@/assets/curso/tema2-imagen9.jpeg")
 
     h3.titulo-tercero(data-aos="fade-in") Concepto de servicio de energía
 
