@@ -186,11 +186,11 @@ export default {
         titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
       },
-      // {
-      //   icono: 'fas fa-download',
-      //   titulo: 'Descargar material',
-      //   download: 'downloads/material.zip',
-      // },
+      {
+        icono: 'fas fa-download',
+        titulo: 'Descargar material',
+        download: 'downloads/material.zip',
+      },
       {
         icono: 'far fa-registered',
         titulo: 'Créditos',
@@ -204,9 +204,9 @@ export default {
         'Fitzgerald, A., Higginbotham, D. y Grabel, A. (1988). Fundamentos de ingeniería eléctrica. 4ª edición. McGraw-Hill. ',
     },
     {
-      referencia: 'García, Á, J. (2005). ¿Qué es la Ley de Ohm? Así funciona. ',
+      referencia: 'Fluke. (s.f.). ¿Qué es la ley de Ohm? ',
       link:
-        'http://www.asifunciona.com/electrotecnia/ke_ley_ohm/ke_ley_ohm_1.htm',
+        'https://www.fluke.com/es-co/informacion/blog/electrica/que-es-la-ley-de-ohm',
     },
     {
       referencia:
@@ -326,7 +326,7 @@ export default {
       texto:
         'Empresas Públicas de Pereira. (2015). Aprende a leer tu factura de energía eléctrica.',
       tipo: 'Tutorial PDF',
-      descarga: '/downloads/Aprende_a_leer_tu_factura_de_energia_electrica.pdf',
+      descarga: 'downloads/Aprende_a_leer_tu_factura_de_energia_electrica.pdf',
     },
     {
       texto:
@@ -339,7 +339,7 @@ export default {
         'Servicio Nacional de Aprendizaje - SENA. (1980). Diferencia de potencial y corriente eléctrica. SENA.',
       tipo: 'Cartilla PDF',
       descarga:
-        '/downloads/unidad_02_diferencia_potencial_corriente_electrica.pdf',
+        'downloads/unidad_02_diferencia_potencial_corriente_electrica.pdf',
     },
   ],
   creditos: {

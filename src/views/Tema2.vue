@@ -274,7 +274,7 @@
                   h3.mb-1 <i>Tips</i> que permiten controlar los consumos de energía
                   p.text-small <i>Infografía.</i>
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/Tips_Energia.pdf')" target="_blank")
+                  a.boton.color-acento-botones(:href="obtenerLink('downloads/Tips_Energia.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
     

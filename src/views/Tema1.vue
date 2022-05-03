@@ -106,7 +106,7 @@
                   h3.mb-1 Ley de Ohm
                   p.text-small Conozca cómo se representa matemáticamente la ley de Ohm.
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/Ley_OHM.pdf')" target="_blank")
+                  a.boton.color-acento-botones(:href="obtenerLink('downloads/Ley_OHM.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 
